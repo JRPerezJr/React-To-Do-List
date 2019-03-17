@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Link to view https://jrperezjr.github.io/React-To-Do-List/
 
 ## Available Scripts
 
