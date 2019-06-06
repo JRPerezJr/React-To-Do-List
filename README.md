@@ -4,8 +4,8 @@
 
 ## To add dependencies
 
-##`yarn`
+## `yarn`
 
 ## To run project
 
-##`yarn start`
+## `yarn start`
