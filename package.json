@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.21.1",
+    "css-what": "^5.0.1",
     "eslint-utils": "^1.4.1",
     "immer": "^8.0.1",
     "joi": "^17.3.0",
