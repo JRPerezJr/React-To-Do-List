@@ -4,19 +4,25 @@ import TodoItem from './TodoItem';
 import PropTypes from 'prop-types';
 
 class Todos extends Component {
-  render() {  //Lifecycle method needed to render the component
-    console.log(this.props.todos)
-    return this.props.todos.map((todo) =>
-        <TodoItem key={todo.id} todo={todo} markComplete={this.props.markComplete} delTodo={this.props.delTodo} />
-    );
+  render() {
+    //Lifecycle method needed to render the component
+    console.log(this.props.todos);
+    return this.props.todos.map((todo) => (
+      <TodoItem
+        key={todo.id}
+        todo={todo}
+        markComplete={this.props.markComplete}
+        delTodo={this.props.delTodo}
+      />
+    ));
   }
 }
 
 //PropTypes
 Todos.propTypes = {
-    todos: PropTypes.array.isRequired,
-    markComplete: PropTypes.func.isRequired,
-    delTodo: PropTypes.func.isRequired
-}
+  todos: PropTypes.array.isRequired,
+  markComplete: PropTypes.func.isRequired,
+  delTodo: PropTypes.func.isRequired,
+};
 
 export default Todos;
