@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "css-what": "^5.0.1",
     "eslint-utils": "^1.4.1",
     "glob-parent": "^5.1.2",
